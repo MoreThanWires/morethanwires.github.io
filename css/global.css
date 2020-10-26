@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Montserrat:wght@400;700&family=Source+Code+Pro:wght@500&display=swap');
+@import url("//hello.myfonts.net/count/3c2ea2");
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('/res/Gilroy-ExtraBold/font.woff2') format('woff2'), url('/res/Gilroy-ExtraBold/font.woff') format('woff'), url('/res/Gilroy-ExtraBold/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf') format('otf');
+}
+
+/*
+    Fonts:
+    ---------------------
+
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+
+    Colors:
+    ---------------------
+
+    Primary: #212121
+    Primary-Dk: #000000
+    Primary-Lt: #484848
+
+    Secondary: #0277bd
+    Secondary-Dk: #004c8c
+    Secondary-Lt: #58a5f0
+
+    Text: #fafafa
+
+*/
+
+/* Background Colors */
+.bg-pr {
+  background-color: #212121;
+}
+
+.bg-pr-dk {
+  background-color: #000000;
+}
+
+.bg-pr-lt {
+  background-color: #484848;
+}
+
+.bg-sc {
+  background-color: #0277bd;
+}
+
+.bg-sc-dk {
+  background-color: #004c8c;
+}
+
+.bg-sc-lt {
+  background-color: #58a5f0;
+}
+
+/* Default Text Styling*/
+.color-text {
+  color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Text Colors */
+.color-pr {
+  color: #212121;
+}
+
+.color-pr-dk {
+  color: #000000;
+}
+
+.color-pr-lt {
+  color: #484848;
+}
+
+.color-sc {
+  color: #0277bd;
+}
+
+.color-sc-dk {
+  color: #004c8c;
+}
+
+.color-sc-lt {
+  color: #58a5f0;
+}
+
+/* Font Types */
+.font-sserif {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-serif {
+  font-family: 'Merriweather', serif;
+}
+
+.font-mono {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.font-display {
+  font-family: 'Gilroy-ExtraBold';
+}
